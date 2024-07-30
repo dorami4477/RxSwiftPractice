@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		48CA27D12C58FB7500D84F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27D02C58FB7500D84F23 /* AppDelegate.swift */; };
 		48CA27D32C58FB7500D84F23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27D22C58FB7500D84F23 /* SceneDelegate.swift */; };
-		48CA27D52C58FB7500D84F23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27D42C58FB7500D84F23 /* ViewController.swift */; };
+		48CA27D52C58FB7500D84F23 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27D42C58FB7500D84F23 /* PickerViewController.swift */; };
 		48CA27D82C58FB7500D84F23 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48CA27D72C58FB7500D84F23 /* Base */; };
 		48CA27DA2C58FB7700D84F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48CA27D92C58FB7700D84F23 /* Assets.xcassets */; };
 		48CA27DD2C58FB7700D84F23 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48CA27DC2C58FB7700D84F23 /* Base */; };
+		48CA27E62C58FC6D00D84F23 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 48CA27E52C58FC6D00D84F23 /* RxCocoa */; };
+		48CA27E82C58FC6D00D84F23 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 48CA27E72C58FC6D00D84F23 /* RxSwift */; };
+		48CA27EB2C58FC7900D84F23 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 48CA27EA2C58FC7900D84F23 /* SnapKit */; };
+		48CA27ED2C59007000D84F23 /* SwitchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27EC2C59007000D84F23 /* SwitchTableViewController.swift */; };
+		48CA27EF2C5906D500D84F23 /* TextFieldButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27EE2C5906D500D84F23 /* TextFieldButtonViewController.swift */; };
+		48CA27F12C591D4200D84F23 /* JustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27F02C591D4200D84F23 /* JustViewController.swift */; };
+		48CA27F42C5921AC00D84F23 /* BasicButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27F32C5921AC00D84F23 /* BasicButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		48CA27CD2C58FB7500D84F23 /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48CA27D02C58FB7500D84F23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48CA27D22C58FB7500D84F23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		48CA27D42C58FB7500D84F23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48CA27D42C58FB7500D84F23 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		48CA27D72C58FB7500D84F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48CA27D92C58FB7700D84F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48CA27DC2C58FB7700D84F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48CA27DE2C58FB7700D84F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48CA27EC2C59007000D84F23 /* SwitchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewController.swift; sourceTree = "<group>"; };
+		48CA27EE2C5906D500D84F23 /* TextFieldButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldButtonViewController.swift; sourceTree = "<group>"; };
+		48CA27F02C591D4200D84F23 /* JustViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustViewController.swift; sourceTree = "<group>"; };
+		48CA27F32C5921AC00D84F23 /* BasicButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48CA27EB2C58FC7900D84F23 /* SnapKit in Frameworks */,
+				48CA27E82C58FC6D00D84F23 /* RxSwift in Frameworks */,
+				48CA27E62C58FC6D00D84F23 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,27 @@
 		48CA27CF2C58FB7500D84F23 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				48CA27F22C591D4F00D84F23 /* Operator */,
 				48CA27D02C58FB7500D84F23 /* AppDelegate.swift */,
 				48CA27D22C58FB7500D84F23 /* SceneDelegate.swift */,
-				48CA27D42C58FB7500D84F23 /* ViewController.swift */,
 				48CA27D62C58FB7500D84F23 /* Main.storyboard */,
 				48CA27D92C58FB7700D84F23 /* Assets.xcassets */,
 				48CA27DB2C58FB7700D84F23 /* LaunchScreen.storyboard */,
 				48CA27DE2C58FB7700D84F23 /* Info.plist */,
 			);
 			path = RxSwiftPractice;
+			sourceTree = "<group>";
+		};
+		48CA27F22C591D4F00D84F23 /* Operator */ = {
+			isa = PBXGroup;
+			children = (
+				48CA27EC2C59007000D84F23 /* SwitchTableViewController.swift */,
+				48CA27D42C58FB7500D84F23 /* PickerViewController.swift */,
+				48CA27EE2C5906D500D84F23 /* TextFieldButtonViewController.swift */,
+				48CA27F02C591D4200D84F23 /* JustViewController.swift */,
+				48CA27F32C5921AC00D84F23 /* BasicButtonViewController.swift */,
+			);
+			path = Operator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +109,11 @@
 			dependencies = (
 			);
 			name = RxSwiftPractice;
+			packageProductDependencies = (
+				48CA27E52C58FC6D00D84F23 /* RxCocoa */,
+				48CA27E72C58FC6D00D84F23 /* RxSwift */,
+				48CA27EA2C58FC7900D84F23 /* SnapKit */,
+			);
 			productName = RxSwiftPractice;
 			productReference = 48CA27CD2C58FB7500D84F23 /* RxSwiftPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,10 @@
 				Base,
 			);
 			mainGroup = 48CA27C42C58FB7500D84F23;
+			packageReferences = (
+				48CA27E42C58FC6D00D84F23 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				48CA27E92C58FC7900D84F23 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 48CA27CE2C58FB7500D84F23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48CA27D52C58FB7500D84F23 /* ViewController.swift in Sources */,
+				48CA27D52C58FB7500D84F23 /* PickerViewController.swift in Sources */,
+				48CA27F42C5921AC00D84F23 /* BasicButtonViewController.swift in Sources */,
 				48CA27D12C58FB7500D84F23 /* AppDelegate.swift in Sources */,
+				48CA27F12C591D4200D84F23 /* JustViewController.swift in Sources */,
 				48CA27D32C58FB7500D84F23 /* SceneDelegate.swift in Sources */,
+				48CA27ED2C59007000D84F23 /* SwitchTableViewController.swift in Sources */,
+				48CA27EF2C5906D500D84F23 /* TextFieldButtonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +402,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48CA27E42C58FC6D00D84F23 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+		48CA27E92C58FC7900D84F23 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48CA27E52C58FC6D00D84F23 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48CA27E42C58FC6D00D84F23 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		48CA27E72C58FC6D00D84F23 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48CA27E42C58FC6D00D84F23 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		48CA27EA2C58FC7900D84F23 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48CA27E92C58FC7900D84F23 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48CA27C52C58FB7500D84F23 /* Project object */;
 }
