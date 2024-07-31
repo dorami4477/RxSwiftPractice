@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48A2FED22C5A0BB8009E6DB5 /* SimplePickerViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A2FED12C5A0BB8009E6DB5 /* SimplePickerViewExampleViewController.swift */; };
+		48A2FED42C5A0DDC009E6DB5 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A2FED32C5A0DDC009E6DB5 /* NumbersViewController.swift */; };
 		48CA27D12C58FB7500D84F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27D02C58FB7500D84F23 /* AppDelegate.swift */; };
 		48CA27D32C58FB7500D84F23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27D22C58FB7500D84F23 /* SceneDelegate.swift */; };
 		48CA27D52C58FB7500D84F23 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27D42C58FB7500D84F23 /* PickerViewController.swift */; };
-		48CA27D82C58FB7500D84F23 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48CA27D72C58FB7500D84F23 /* Base */; };
 		48CA27DA2C58FB7700D84F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48CA27D92C58FB7700D84F23 /* Assets.xcassets */; };
 		48CA27DD2C58FB7700D84F23 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48CA27DC2C58FB7700D84F23 /* Base */; };
 		48CA27E62C58FC6D00D84F23 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 48CA27E52C58FC6D00D84F23 /* RxCocoa */; };
@@ -20,14 +21,17 @@
 		48CA27EF2C5906D500D84F23 /* TextFieldButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27EE2C5906D500D84F23 /* TextFieldButtonViewController.swift */; };
 		48CA27F12C591D4200D84F23 /* JustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27F02C591D4200D84F23 /* JustViewController.swift */; };
 		48CA27F42C5921AC00D84F23 /* BasicButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27F32C5921AC00D84F23 /* BasicButtonViewController.swift */; };
+		48E7E0462C5A1B6400DBBBB0 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E7E0452C5A1B6400DBBBB0 /* SimpleValidationViewController.swift */; };
+		48E7E0482C5A240E00DBBBB0 /* SimpleTableViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E7E0472C5A240E00DBBBB0 /* SimpleTableViewExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48A2FED12C5A0BB8009E6DB5 /* SimplePickerViewExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePickerViewExampleViewController.swift; sourceTree = "<group>"; };
+		48A2FED32C5A0DDC009E6DB5 /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
 		48CA27CD2C58FB7500D84F23 /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48CA27D02C58FB7500D84F23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48CA27D22C58FB7500D84F23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		48CA27D42C58FB7500D84F23 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
-		48CA27D72C58FB7500D84F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48CA27D92C58FB7700D84F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48CA27DC2C58FB7700D84F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48CA27DE2C58FB7700D84F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +39,8 @@
 		48CA27EE2C5906D500D84F23 /* TextFieldButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldButtonViewController.swift; sourceTree = "<group>"; };
 		48CA27F02C591D4200D84F23 /* JustViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustViewController.swift; sourceTree = "<group>"; };
 		48CA27F32C5921AC00D84F23 /* BasicButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButtonViewController.swift; sourceTree = "<group>"; };
+		48E7E0452C5A1B6400DBBBB0 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
+		48E7E0472C5A240E00DBBBB0 /* SimpleTableViewExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48A2FED02C5A0B73009E6DB5 /* SampleProject02 */ = {
+			isa = PBXGroup;
+			children = (
+				48A2FED12C5A0BB8009E6DB5 /* SimplePickerViewExampleViewController.swift */,
+				48A2FED32C5A0DDC009E6DB5 /* NumbersViewController.swift */,
+				48E7E0452C5A1B6400DBBBB0 /* SimpleValidationViewController.swift */,
+				48E7E0472C5A240E00DBBBB0 /* SimpleTableViewExampleViewController.swift */,
+			);
+			path = SampleProject02;
+			sourceTree = "<group>";
+		};
 		48CA27C42C58FB7500D84F23 = {
 			isa = PBXGroup;
 			children = (
@@ -70,10 +87,10 @@
 		48CA27CF2C58FB7500D84F23 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
-				48CA27F22C591D4F00D84F23 /* Operator */,
+				48CA27F22C591D4F00D84F23 /* SampleProject01 */,
+				48A2FED02C5A0B73009E6DB5 /* SampleProject02 */,
 				48CA27D02C58FB7500D84F23 /* AppDelegate.swift */,
 				48CA27D22C58FB7500D84F23 /* SceneDelegate.swift */,
-				48CA27D62C58FB7500D84F23 /* Main.storyboard */,
 				48CA27D92C58FB7700D84F23 /* Assets.xcassets */,
 				48CA27DB2C58FB7700D84F23 /* LaunchScreen.storyboard */,
 				48CA27DE2C58FB7700D84F23 /* Info.plist */,
@@ -81,7 +98,7 @@
 			path = RxSwiftPractice;
 			sourceTree = "<group>";
 		};
-		48CA27F22C591D4F00D84F23 /* Operator */ = {
+		48CA27F22C591D4F00D84F23 /* SampleProject01 */ = {
 			isa = PBXGroup;
 			children = (
 				48CA27EC2C59007000D84F23 /* SwitchTableViewController.swift */,
@@ -90,7 +107,7 @@
 				48CA27F02C591D4200D84F23 /* JustViewController.swift */,
 				48CA27F32C5921AC00D84F23 /* BasicButtonViewController.swift */,
 			);
-			path = Operator;
+			path = SampleProject01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +179,6 @@
 			files = (
 				48CA27DA2C58FB7700D84F23 /* Assets.xcassets in Resources */,
 				48CA27DD2C58FB7700D84F23 /* Base in Resources */,
-				48CA27D82C58FB7500D84F23 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,27 +189,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E7E0482C5A240E00DBBBB0 /* SimpleTableViewExampleViewController.swift in Sources */,
 				48CA27D52C58FB7500D84F23 /* PickerViewController.swift in Sources */,
 				48CA27F42C5921AC00D84F23 /* BasicButtonViewController.swift in Sources */,
 				48CA27D12C58FB7500D84F23 /* AppDelegate.swift in Sources */,
+				48A2FED42C5A0DDC009E6DB5 /* NumbersViewController.swift in Sources */,
 				48CA27F12C591D4200D84F23 /* JustViewController.swift in Sources */,
+				48A2FED22C5A0BB8009E6DB5 /* SimplePickerViewExampleViewController.swift in Sources */,
 				48CA27D32C58FB7500D84F23 /* SceneDelegate.swift in Sources */,
 				48CA27ED2C59007000D84F23 /* SwitchTableViewController.swift in Sources */,
 				48CA27EF2C5906D500D84F23 /* TextFieldButtonViewController.swift in Sources */,
+				48E7E0462C5A1B6400DBBBB0 /* SimpleValidationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		48CA27D62C58FB7500D84F23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48CA27D72C58FB7500D84F23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		48CA27DB2C58FB7700D84F23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,7 +348,6 @@
 				INFOPLIST_FILE = RxSwiftPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,7 +375,6 @@
 				INFOPLIST_FILE = RxSwiftPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
