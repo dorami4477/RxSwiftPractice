@@ -23,6 +23,8 @@
 		48CA27F42C5921AC00D84F23 /* BasicButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27F32C5921AC00D84F23 /* BasicButtonViewController.swift */; };
 		48E7E0462C5A1B6400DBBBB0 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E7E0452C5A1B6400DBBBB0 /* SimpleValidationViewController.swift */; };
 		48E7E0482C5A240E00DBBBB0 /* SimpleTableViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E7E0472C5A240E00DBBBB0 /* SimpleTableViewExampleViewController.swift */; };
+		48E7E04E2C5D10C500DBBBB0 /* SimpleTableViewExample2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E7E04D2C5D10C500DBBBB0 /* SimpleTableViewExample2ViewController.swift */; };
+		48E7E0502C5D18BA00DBBBB0 /* SimpleValidation2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E7E04F2C5D18BA00DBBBB0 /* SimpleValidation2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		48CA27F32C5921AC00D84F23 /* BasicButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButtonViewController.swift; sourceTree = "<group>"; };
 		48E7E0452C5A1B6400DBBBB0 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
 		48E7E0472C5A240E00DBBBB0 /* SimpleTableViewExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExampleViewController.swift; sourceTree = "<group>"; };
+		48E7E04D2C5D10C500DBBBB0 /* SimpleTableViewExample2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExample2ViewController.swift; sourceTree = "<group>"; };
+		48E7E04F2C5D18BA00DBBBB0 /* SimpleValidation2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidation2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 		48CA27CF2C58FB7500D84F23 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				48E7E04C2C5D10A200DBBBB0 /* SampleProject03 */,
 				48CA27F22C591D4F00D84F23 /* SampleProject01 */,
 				48A2FED02C5A0B73009E6DB5 /* SampleProject02 */,
 				48CA27D02C58FB7500D84F23 /* AppDelegate.swift */,
@@ -108,6 +113,15 @@
 				48CA27F32C5921AC00D84F23 /* BasicButtonViewController.swift */,
 			);
 			path = SampleProject01;
+			sourceTree = "<group>";
+		};
+		48E7E04C2C5D10A200DBBBB0 /* SampleProject03 */ = {
+			isa = PBXGroup;
+			children = (
+				48E7E04D2C5D10C500DBBBB0 /* SimpleTableViewExample2ViewController.swift */,
+				48E7E04F2C5D18BA00DBBBB0 /* SimpleValidation2ViewController.swift */,
+			);
+			path = SampleProject03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +211,9 @@
 				48CA27F12C591D4200D84F23 /* JustViewController.swift in Sources */,
 				48A2FED22C5A0BB8009E6DB5 /* SimplePickerViewExampleViewController.swift in Sources */,
 				48CA27D32C58FB7500D84F23 /* SceneDelegate.swift in Sources */,
+				48E7E04E2C5D10C500DBBBB0 /* SimpleTableViewExample2ViewController.swift in Sources */,
 				48CA27ED2C59007000D84F23 /* SwitchTableViewController.swift in Sources */,
+				48E7E0502C5D18BA00DBBBB0 /* SimpleValidation2ViewController.swift in Sources */,
 				48CA27EF2C5906D500D84F23 /* TextFieldButtonViewController.swift in Sources */,
 				48E7E0462C5A1B6400DBBBB0 /* SimpleValidationViewController.swift in Sources */,
 			);
