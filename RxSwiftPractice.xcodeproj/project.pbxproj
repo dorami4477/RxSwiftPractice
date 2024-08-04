@@ -25,6 +25,7 @@
 		48E7E0482C5A240E00DBBBB0 /* SimpleTableViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E7E0472C5A240E00DBBBB0 /* SimpleTableViewExampleViewController.swift */; };
 		48E7E04E2C5D10C500DBBBB0 /* SimpleTableViewExample2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E7E04D2C5D10C500DBBBB0 /* SimpleTableViewExample2ViewController.swift */; };
 		48E7E0502C5D18BA00DBBBB0 /* SimpleValidation2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E7E04F2C5D18BA00DBBBB0 /* SimpleValidation2ViewController.swift */; };
+		48E7E0642C5FA8F200DBBBB0 /* Numbers2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E7E0632C5FA8F200DBBBB0 /* Numbers2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		48E7E0472C5A240E00DBBBB0 /* SimpleTableViewExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExampleViewController.swift; sourceTree = "<group>"; };
 		48E7E04D2C5D10C500DBBBB0 /* SimpleTableViewExample2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExample2ViewController.swift; sourceTree = "<group>"; };
 		48E7E04F2C5D18BA00DBBBB0 /* SimpleValidation2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidation2ViewController.swift; sourceTree = "<group>"; };
+		48E7E0632C5FA8F200DBBBB0 /* Numbers2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			children = (
 				48E7E04D2C5D10C500DBBBB0 /* SimpleTableViewExample2ViewController.swift */,
 				48E7E04F2C5D18BA00DBBBB0 /* SimpleValidation2ViewController.swift */,
+				48E7E0632C5FA8F200DBBBB0 /* Numbers2ViewController.swift */,
 			);
 			path = SampleProject03;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				48E7E04E2C5D10C500DBBBB0 /* SimpleTableViewExample2ViewController.swift in Sources */,
 				48CA27ED2C59007000D84F23 /* SwitchTableViewController.swift in Sources */,
 				48E7E0502C5D18BA00DBBBB0 /* SimpleValidation2ViewController.swift in Sources */,
+				48E7E0642C5FA8F200DBBBB0 /* Numbers2ViewController.swift in Sources */,
 				48CA27EF2C5906D500D84F23 /* TextFieldButtonViewController.swift in Sources */,
 				48E7E0462C5A1B6400DBBBB0 /* SimpleValidationViewController.swift in Sources */,
 			);
